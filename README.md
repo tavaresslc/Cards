@@ -8,7 +8,7 @@ Ciência da Computação | Tarde | Puc Minas Coração Eucaristico
 
 `Hospedagem`  
 
-[Cards]()
+[Cards](https://tavaresslc.github.io/Cards/)
 
 ## Como Jogar
 
