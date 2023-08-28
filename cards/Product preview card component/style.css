@@ -1,0 +1,185 @@
+body {
+    background-color: #000;
+    font-family: 'Hanken Grotesk';
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Fraunces';
+}
+
+section {
+    background-color: hsl(30, 38%, 92%);
+    width: 1180px;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    
+}
+
+.box {
+    width: 45%;
+    height: 80%;
+    background-color: white;
+    border-radius: 3%;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image {
+    width: 50%;
+    height: 100%;
+    background-image: url(images/image-product-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left top;
+    border-radius: 3% 0 0 3%;
+    margin-right: 28px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    zoom: 118%;
+}
+
+.p1 {
+    font-family: 'Montserrat';
+    font-size: 10px;
+    color: hsl(228, 12%, 48%);
+    margin-bottom: 35px;
+}
+
+h1 {
+    font-family: 'Fraunces';
+    margin-top: -25px;
+    color: hsl(212, 21%, 14%); 
+    max-width: 150px; 
+}
+
+p {
+    font-size: 11px;
+    font-family: 'Montserrat';
+    margin-top: -6px;
+    color: hsl(228, 12%, 48%);
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 36px;
+    margin-right: auto;
+}
+
+.price h1 {
+    font-family: 'Fraunces';
+    color: hsl(158, 36%, 37%);
+}
+
+.price h6 {
+    font-family: 'Montserrat';
+    font-size: 10px;
+    margin-left: 15px;
+    margin-top: -22px;
+    color: hsl(228, 12%, 48%);
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+    font-size: 11px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 3px;
+    margin-bottom: -10px;
+}
+
+button:hover {
+    background-color: hsl(176, 68%, 40%);
+}
+
+button img {
+    margin-right: 8px;
+    width: 12px;
+}
+
+@media (max-width: 480px) {
+
+    body {
+        background-color: white;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section {
+        background-color: white;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .box {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .image {
+        width: 100%;
+        background-image: url(images/image-product-mobile.jpg);
+        border-radius: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center top;
+        margin-top: -1px;
+        margin-right: 0px;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: auto;
+        margin-left: 35px;
+        margin-top: 30px;
+        zoom: 120%;
+    }
+
+    button {
+        margin-bottom: 24px;
+        width: 90%;
+    }
+
+    h1 {
+        font-family: 'Fraunces';
+        margin-top: -25px;
+        color: hsl(212, 21%, 14%); 
+        max-width: 215px; 
+    }
+}
